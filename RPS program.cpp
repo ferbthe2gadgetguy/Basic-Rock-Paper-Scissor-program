@@ -81,7 +81,7 @@ void RPS (char ans, int rng)
 	
 	// cout <<endl <<reply <<endl; DEBUGGING
 	
-	cout <<endl <<"VS" <<endl <<endl <<reply <<" - " <<convenience[rng] <<endl;
+	cout <<endl <<"VS" <<endl <<endl <<reply <<" - " <<convenience[rng-1] <<endl;
 	
 	//Player wins
 	
@@ -135,4 +135,3 @@ void RPS (char ans, int rng)
 	} 
 	
 }
-
